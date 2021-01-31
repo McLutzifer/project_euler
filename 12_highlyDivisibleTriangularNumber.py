@@ -27,22 +27,26 @@ x = 0
 for i in range (1,90):
 	x = x+i
 	triangleNumbers.append(x)
-print(triangleNumbers)
+#print(triangleNumbers)
 
 '''
 for j in range(8, 11):
 	for k in range (1, triangleNumbers[j]):
 		print(triangleNumbers[j]%k)
 '''
-'''
+
 for num in triangleNumbers:
 	count = 0
-	for i in range (2, 11000):
+	for i in range (2, 1100):
 		if num%i == 0:
 			count += 1
-	if count  >= 499:
+	if count == 5:
 		print(str(count) + " the number is " + str(num))
-'''
+
 
 
 			#236215980 wrong
+
+
+# sum of natural numbers:
+# N_k = (k*(k+1))/2
